@@ -77,7 +77,21 @@
 		</dependency>
 
 	</dependencies>
-
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>DigiEras Technologies Releases Nexus Repository</name>
+	      <url>http://localhost:8081/repository/database-engine-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>DigiEras Technologies Snapshot Nexus Repository </name>
+	      <url>http://localhost:8081/repository/database-engine-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	<build>
 		<plugins>
 			<plugin>
